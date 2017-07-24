@@ -42,7 +42,7 @@
 
 - (void)SetUplabelWithRightLabel:(NSString *)rightStr LeftLabel:(NSString *)leftStr{
     NSInteger width = 25;
-    NSInteger space = 10;
+    NSInteger space = 5;
     NSMutableArray *rightArr = [NSMutableArray array];
     NSInteger length = [rightStr length];
     for (int i = 0; i<length; i++) {

@@ -46,10 +46,12 @@
     
     [UIView animateWithDuration:0.5 animations:^{
         [self SetupFireworks];
-        [AnimationLayer createAnimationLayerWithString:@"姣姣宝贝，我爱你！" andRect:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width) andView:self.view andFont:[UIFont boldSystemFontOfSize:40] andStrokeColor:[UIColor cyanColor]];
+//        [AnimationLayer createAnimationLayerWithString:@"姣姣宝贝，我爱你！" andRect:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width) andView:self.view andFont:[UIFont boldSystemFontOfSize:40] andStrokeColor:[UIColor cyanColor]];
+        [AnimationLayer createAnimationLayerWithString:@"娅敏，可好！" andRect:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width) andView:self.view andFont:[UIFont boldSystemFontOfSize:40] andStrokeColor:[UIColor cyanColor]];
     } completion:^(BOOL finished) {
         self.LabelSuperView = [[LabelSubView alloc] initWithStr:@"dcac"];
-        [self.LabelSuperView SetUplabelWithRightLabel:@"我牵尔玉手收你此生所有;" LeftLabel:@"我抚尔秀颈挡你此生风雨。"];
+//        [self.LabelSuperView SetUplabelWithRightLabel:@"我牵尔玉手收你此生所有;" LeftLabel:@"我抚尔秀颈挡你此生风雨。"];
+        [self.LabelSuperView SetUplabelWithRightLabel:@"留住一日三微笑保你人生不老;" LeftLabel:@"去掉一日三烦恼保你快乐闪耀"];
         [self.LabelSuperView showLabel];
     }];
     
