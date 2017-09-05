@@ -35,7 +35,7 @@ static const UIEdgeInsets DefaultEdgeInsets = {10,10,10,10};
 #pragma mark - 代理数据
 - (CGFloat)rowMargin{
     if ([self.delagate respondsToSelector:@selector(rowMarginInWaterflowLayout:)]) {
-       return  [self .delagate rowMarginInWaterflowLayout:self];
+       return  [self.delagate rowMarginInWaterflowLayout:self];
     }else{
         return DefaultRowMargin;
     }
@@ -43,7 +43,7 @@ static const UIEdgeInsets DefaultEdgeInsets = {10,10,10,10};
 
 - (CGFloat)columnMargin{
     if ([self.delagate respondsToSelector:@selector(columnMarginInWaterflowLayout:)]) {
-        return  [self .delagate columnMarginInWaterflowLayout:self];
+        return  [self.delagate columnMarginInWaterflowLayout:self];
     }else{
         return DefaultColumnMargin;
     }
@@ -81,6 +81,7 @@ static const UIEdgeInsets DefaultEdgeInsets = {10,10,10,10};
 #pragma mark - 初始化数据
 - (void)prepareLayout{
     [super prepareLayout];
+    
     
     
     // 清除以前计算的所有高度

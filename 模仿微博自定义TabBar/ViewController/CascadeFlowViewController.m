@@ -9,6 +9,7 @@
 #import "CascadeFlowViewController.h"
 #import "FlowCell.h"
 #import "MWLWaterLayout.h"
+#import "ShowImageView.h"
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
@@ -65,7 +66,15 @@
     return cell;
 }
 
-
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    ShowImageView *ImgView = [[ShowImageView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+    ImgView.ImageArray = self.dataArray;
+    ImgView.index = indexPath.row;
+    [ImgView initSrollerView];
+    [self.view addSubview:ImgView];
+    
+    NSLog(@"---%ld",indexPath.row);
+}
 
 #pragma mark - MWLWagterDelegate
 - (CGFloat)waterLayout:(UICollectionViewLayout *)waterLayout itemWidth:(CGFloat)itemWidth indexPath:(NSIndexPath *)indexPath{

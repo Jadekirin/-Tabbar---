@@ -11,7 +11,9 @@
 
 @required
 
-
+/**
+ *返回cell的高度
+ */
 - (CGFloat)waterLayout:(UICollectionViewLayout *)waterLayout itemWidth:(CGFloat)itemWidth indexPath:(NSIndexPath *)indexPath;
 
 @optional

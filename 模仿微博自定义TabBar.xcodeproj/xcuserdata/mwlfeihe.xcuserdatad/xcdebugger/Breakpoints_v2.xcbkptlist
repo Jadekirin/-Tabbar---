@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6a21;&#x4eff;&#x5fae;&#x535a;&#x81ea;&#x5b9a;&#x4e49;TabBar/ViewController/NetImageView.m"
+            timestampString = "523443167.603467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "-InitImageViewBlock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NetImageView InitImageViewBlock:]"
+                  moduleName = "&#x6a21;&#x4eff;&#x5fae;&#x535a;&#x81ea;&#x5b9a;&#x4e49;TabBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mwlfeihe/Desktop/%E6%A8%A1%E4%BB%BF%E5%BE%AE%E5%8D%9A%E8%87%AA%E5%AE%9A%E4%B9%89TabBar/%E6%A8%A1%E4%BB%BF%E5%BE%AE%E5%8D%9A%E8%87%AA%E5%AE%9A%E4%B9%89TabBar/ViewController/NetImageView.m"
+                  timestampString = "523440716.629654"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "2079">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NetImageView InitImageViewBlock:]"
+                  moduleName = "&#x6a21;&#x4eff;&#x5fae;&#x535a;&#x81ea;&#x5b9a;&#x4e49;TabBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mwlfeihe/Desktop/%E6%A8%A1%E4%BB%BF%E5%BE%AE%E5%8D%9A%E8%87%AA%E5%AE%9A%E4%B9%89TabBar/%E6%A8%A1%E4%BB%BF%E5%BE%AE%E5%8D%9A%E8%87%AA%E5%AE%9A%E4%B9%89TabBar/ViewController/NetImageView.m"
+                  timestampString = "523440716.632791"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "2115">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6a21;&#x4eff;&#x5fae;&#x535a;&#x81ea;&#x5b9a;&#x4e49;TabBar/ViewController/NetImageView.m"
+            timestampString = "523442220.095327"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-InitImageViewBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6a21;&#x4eff;&#x5fae;&#x535a;&#x81ea;&#x5b9a;&#x4e49;TabBar/ViewController/NetImageView.m"
+            timestampString = "523443175.114179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-InitImageViewBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6a21;&#x4eff;&#x5fae;&#x535a;&#x81ea;&#x5b9a;&#x4e49;TabBar/ViewController/MWLWaterLayout.m"
+            timestampString = "523524042.554132"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "-layoutAttributesForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
